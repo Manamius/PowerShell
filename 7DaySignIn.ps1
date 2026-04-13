@@ -1,6 +1,7 @@
 <#
 Author: Manamius
 Description: Get the last 7 days worth of Sign In Logs from Entra ID. Connect to Exchange Online and MgGraph prior to running script.
+Caveat: Currently the Status Code outputs as a number (May fix later) 0 = successful login, anything else is a failed login. If you want to look up status codes, go to https://login.microsoftonline.com/error
 #>
 
 # Set Time frame to last 7 days
